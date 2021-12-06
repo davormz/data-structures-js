@@ -32,6 +32,8 @@ class Stack{
     }
 
     pop(){
-        //TODO
+        const node = this.top;
+        this.top =  node.next;
+        return node;
     }
 }
